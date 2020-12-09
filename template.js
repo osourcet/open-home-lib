@@ -1,4 +1,4 @@
-class DeviceLibrary {
+export default class DeviceLibrary {
     // !'type' property must be set!
     // must be the same name as the filename AND the type param in the device code for which this library is written
     static type = 'template';
@@ -21,8 +21,6 @@ class DeviceLibrary {
     }
     
 }
-
-module.exports = DeviceLibrary;
 
 /* 
 that is also possible:
